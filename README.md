@@ -2,7 +2,7 @@
 This is the sixth project of 340
 
 ```
-Purpose
+<p align="center" src ="Purpose">
 This lab will serve a few purposes. First, it will provide hands-on experience using both queues
 and binary search trees. It will also provide an opportunity for further program/class design as
 the project does not specifically delineate class structure or design.
