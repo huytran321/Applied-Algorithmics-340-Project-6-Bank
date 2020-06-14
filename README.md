@@ -1,7 +1,6 @@
 # Applied-Algorithmics-340-Project-6-Bank
 This is the sixth project of 340
 
-```
 <p align="center" src ="Purpose">
 This lab will serve a few purposes. First, it will provide hands-on experience using both queues
 and binary search trees. It will also provide an opportunity for further program/class design as
@@ -120,4 +119,4 @@ Here is what should be turned in in a .zip file
 running the sample input found on Canvas. It does not need to look exactly
 like the output posted on canvas but should be the output from your
 program running against the input.
-```
+
