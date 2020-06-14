@@ -76,6 +76,7 @@ H 12344 Display the history for all transactions on the 500 Index Fund for clien
 O Bowden Charles 6537 Open an account for client Charles Bowden. Use account id 6537.<br/>
 
 Errors:
+
 As noted above, assume the format (number and types of input items) are correct. However,
 the program should deal with all other types of errors. For instance, there could be a bad
 account number (for instance, one already used) or an amount which is too much to withdraw.
