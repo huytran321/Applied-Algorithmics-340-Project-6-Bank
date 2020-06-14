@@ -1,23 +1,28 @@
 # Applied-Algorithmics-340-Project-6-Bank
 This is the sixth project of 340
 
-<p align="center" src ="Purpose">
+Purpose
+
 This lab will serve a few purposes. First, it will provide hands-on experience using both queues
 and binary search trees. It will also provide an opportunity for further program/class design as
 the project does not specifically delineate class structure or design.
 Note also that there may be some ambiguity in the spec below so please make sure to ask any
 clarifying questions early.
+
 A peer design review will be required to help with the latter aspect. This design review will
 require a deliverable to canvas and will be part of the final grade for the program.
 Problem Overview:
+
 You will build a banking application which processes transactions. This banking
 application consists of three phases.
-1) The program will read in a string of transactions from a file into an in-memory queue.
+
+1. The program will read in a string of transactions from a file into an in-memory queue.
 These transactions can open accounts, withdraw funds, deposit funds, transfer funds, or ask for
 the transactional history to be printed.
-2) The program will next read from the queue and process the transactions in order.
-3) When the queue has been depleted the program will print out all open accounts and
+2. The program will next read from the queue and process the transactions in order.
+3. When the queue has been depleted the program will print out all open accounts and
 balances in those accounts.
+
 Details:
 Input:
 To test your program a file called BankTransIn.txt will be utilized. You program should
