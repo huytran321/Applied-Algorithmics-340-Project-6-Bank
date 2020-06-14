@@ -44,36 +44,36 @@ represented by a first and last name (two strings) and a unique 4 digit identifi
 can be added to the digit id to represent the individual fund within the account as enumerated
 below:
 
-0: Money Market 5: Capital Value Fund
-1: Prime Money Market 6: Growth Equity Fund
-2: Long-Term Bond 7: Growth Index Fund
-3: Short-Term Bond 8: Value Fund
-4: 500 Index Fund 9: Value Stock Index
+0: Money Market 5: Capital Value Fund <br/>
+1: Prime Money Market 6: Growth Equity Fund <br/>
+2: Long-Term Bond 7: Growth Index Fund <br/>
+3: Short-Term Bond 8: Value Fund <br/>
+4: 500 Index Fund 9: Value Stock Index <br/>
 For instance, 23452 represents the Long-Term Bond fund for client account 2345. A
 client account is opened as a transaction (see below).
 
 Transactions:
 
-There are five types of transactions and each are identified by a character beginning the line.
-O: Open a client account with the appropriate funds
-D: Deposit assets into a fund
-W: Withdraw assets from a fund
+There are five types of transactions and each are identified by a character beginning the line.<br/>
+O: Open a client account with the appropriate funds<br/>
+D: Deposit assets into a fund<br/>
+W: Withdraw assets from a fund<br/>
 T: Transfer assets between funds (can be funds owned by a single client or
-transfers between clients)
-H: Display the history of all transactions for a client account or for a single fund.
+transfers between clients)<br/>
+H: Display the history of all transactions for a client account or for a single fund.<br/>
 
 Include errors in the output where appropriate.
 After this character key, the account-fund number is given followed by relevant information for
 the transaction.
 
 Examples:
-D 12341 100 Deposit $100 into the prime money market account of client ID 1234
-W 12340 500 Withdraw $500 from the money market of client ID 1234.
-T 12340 1000 12341 Transfer $1000 from client 1234's money market to the prime money market.
-T 12340 1000 56780 Transfer $1000 from 1234's money market to 5678's money market.
-H 1234 Display the history of all transactions of all accounts for client 1234.
-H 12344 Display the history for all transactions on the 500 Index Fund for client 1234
-O Bowden Charles 6537 Open an account for client Charles Bowden. Use account id 6537.
+D 12341 100 Deposit $100 into the prime money market account of client ID 1234<br/>
+W 12340 500 Withdraw $500 from the money market of client ID 1234.<br/>
+T 12340 1000 12341 Transfer $1000 from client 1234's money market to the prime money market.<br/>
+T 12340 1000 56780 Transfer $1000 from 1234's money market to 5678's money market.<br/>
+H 1234 Display the history of all transactions of all accounts for client 1234.<br/>
+H 12344 Display the history for all transactions on the 500 Index Fund for client 1234<br/>
+O Bowden Charles 6537 Open an account for client Charles Bowden. Use account id 6537.<br/>
 
 Errors:
 As noted above, assume the format (number and types of input items) are correct. However,
@@ -83,14 +83,14 @@ Also, assume that each line will begin with an appropriate letter: O, W, D, H, o
 
 Examples of errors which may occur:
 
-W 65439 10000 (when the Value Stock Index of client 6543 has only $20)
-D 765435 76
+W 65439 10000 (when the Value Stock Index of client 6543 has only $20)<br/>
+D 765435 76<br/>
 A transaction that would cause a balance to become negative should not occur and is an error.
 There is one exception to this rule: if you are withdrawing from a money market fund with
 insufficient dollars, and it can be covered with dollars from the other money market fund
 owned by the client account, the desired amount (only the partial amount needed to cover the
 withdrawal) is moved to that money market account. The two Bond accounts are handled
-similarly. No other types of accounts are handled in this manner.
+similarly. No other types of accounts are handled in this manner.<br/>
 
 Appropriate error messages should be printed out to the console. No other messages should
 be printed out during phase 1 or phase 2.
@@ -113,6 +113,6 @@ Second, the client accounts should be stored in a binary search tree (BSTree). Y
 should design and code the BST. We have spent time in class on making progress on this.
 What to bring to checkpoint peer design review
 
-```
+
 
 
