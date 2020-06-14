@@ -25,8 +25,7 @@ balances in those accounts.
 
 Details:
 
-Input:
-
+Input:<br/>
 To test your program a file called BankTransIn.txt will be utilized. You program should
 assume a file with this exact name. We will use different variants of this file for testing.
 Transactions of the format described below (see section on transactions) will be contained in
@@ -37,8 +36,7 @@ there may be errors in the transactions themselves. For instance, a transaction 
 withdraw more money than there is a fund or try to withdraw for a non-existent fund. See the
 section below entitled errors for details.
 
-Client Accounts and Funds:
-
+Client Accounts and Funds:<br/>
 Each client account contains assets held in up to ten funds. A client account is
 represented by a first and last name (two strings) and a unique 4 digit identifier. A fifth digit
 can be added to the digit id to represent the individual fund within the account as enumerated
@@ -52,8 +50,7 @@ below:
 For instance, 23452 represents the Long-Term Bond fund for client account 2345. A
 client account is opened as a transaction (see below).
 
-Transactions:
-
+Transactions:<br/>
 There are five types of transactions and each are identified by a character beginning the line.<br/>
 O: Open a client account with the appropriate funds<br/>
 D: Deposit assets into a fund<br/>
@@ -82,8 +79,7 @@ the program should deal with all other types of errors. For instance, there coul
 account number (for instance, one already used) or an amount which is too much to withdraw.
 Also, assume that each line will begin with an appropriate letter: O, W, D, H, or T.
 
-Examples of errors which may occur:
-
+Examples of errors which may occur:<br/>
 W 65439 10000 (when the Value Stock Index of client 6543 has only $20)<br/>
 D 765435 76<br/>
 A transaction that would cause a balance to become negative should not occur and is an error.
@@ -96,12 +92,12 @@ similarly. No other types of accounts are handled in this manner.<br/>
 Appropriate error messages should be printed out to the console. No other messages should
 be printed out during phase 1 or phase 2.
 
-Output:
+Output:<br/>
 In Phase 3, each client account will be printed out with the amount held in each
 account. Please make sure to create an intuitive and readable output for this aspect of the
 program. This should be part of the design.
 
-Data Structures:
+Data Structures:<br/>
 One key aspect of this Lab exercise is the right class design for handling the problem. So
 in general there is no pre-defined classes or signature structure for the classes required. This is
 up to you to define. However, there are two data structures which are required.
